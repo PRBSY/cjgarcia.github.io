@@ -341,3 +341,33 @@ p {
     padding: 25px;
   }
 }
+
+/* Mobile-specific styles within @media queries */
+@media (max-width: 768px) {
+  /* Styles for screens with a maximum width of 768px (e.g., mobile devices) */
+  
+  body {
+    font-size: 16px; /* Adjust font size for mobile */
+  }
+
+  /* Adjust margins and paddings for a better mobile layout */
+  .tm-brand-container {
+    padding: 45px; /* Increase padding for better spacing on mobile */
+  }
+
+  /* Adjust portfolio item layout for mobile */
+  .tm-portfolio-item {
+    flex-direction: column; /* Stack items vertically on mobile */
+  }
+
+  .tm-portfolio-name,
+  .tm-portfolio-description {
+    width: 100%; /* Make portfolio item content full width on mobile */
+  }
+
+  .tm-portfolio-description {
+    padding: 20px 30px; /* Adjust padding for mobile readability */
+  }
+
+  /* Add more mobile-specific styles here */
+}
